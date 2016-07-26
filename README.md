@@ -1,7 +1,7 @@
 # Prime-counting
-Function for prime-counting with a good approximation
-Instructions:
-  From Linux command line:
+##Function for prime-counting with a good approximation
+###Instructions:
+####From Linux command line:
     git clone https://github.com/lucky-sideburn/Prime-counting.git
     ruby px.rb
     Example => x: 83 ; p(x): 23 ; k(x): 23.66003706554203 ; px(x)-k(x) = -0.6600370655420313 ; x/log(x) : 18.783207489664797 ; px(x) - x/log(x) 4.216792510335203
