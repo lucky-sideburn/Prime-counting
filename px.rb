@@ -24,7 +24,7 @@ end
 def kappa(x)
    i = 3
    sum_of_log = 0
-   while (i <= x + 1)
+   while (i <= x )
      sum_of_log = sum_of_log + ((i).to_f / Math::log(i))
      i = i + 1
    end
