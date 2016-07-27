@@ -1,6 +1,7 @@
 # Prime-counting
 ##Function for prime-counting with a good approximation
 ![Alt text](https://raw.githubusercontent.com/lucky-sideburn/Prime-counting/master/kappa.png)
+![Alt text](https://raw.githubusercontent.com/lucky-sideburn/Prime-counting/master/gnuplot.png "Gnuplot chart")
 ###Instructions:
 ####From Linux command line:
     git clone https://github.com/lucky-sideburn/Prime-counting.git
@@ -13,5 +14,4 @@
     gnuplot> set terminal canvas
     gnuplot> set output "foo.html"
     gnuplot> plot 'primes.csv' using 1:2 title 'P(x)' with lines, '' using 1:3 title 'k(x)' with lines , '' using 1:4 title 'x/log(x)' with lines
-####Open foo.html from you browser to see this chart:
-![Alt text](https://raw.githubusercontent.com/lucky-sideburn/Prime-counting/master/gnuplot.png "Gnuplot chart")
+####Open foo.html from you browser to see this above
