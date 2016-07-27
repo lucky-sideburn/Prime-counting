@@ -1,5 +1,6 @@
 # Prime-counting
 ##Function for prime-counting with a good approximation
+![Alt text](https://raw.githubusercontent.com/lucky-sideburn/Prime-counting/master/kappa.png "formula")
 ###Instructions:
 ####From Linux command line:
     git clone https://github.com/lucky-sideburn/Prime-counting.git
